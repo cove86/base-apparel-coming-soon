@@ -1,4 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+  max-width: 100%;
+  padding: 3em;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-img {
+  max-width: 100%;
+  margin-bottom: 4em;
+}
+
+.hero-header {
+  font-size: 3.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  line-height: 1;
+}
+
+.hero-header-alt {
+  font-weight: 300;
+  color: hsl(0, 36%, 70%);
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  color: hsl(0, 36%, 70%);
+  padding: 1em 2em;
+  line-height: 1.4;
+}
+
+.email-input {
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 2rem;
+  overflow: hidden;
+  align-self: center;
+  width: 80%;
+
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+input {
+  padding: 1em;
+  outline: none;
+  border: none;
+}
+
+input::placeholder {
+  color: hsl(0, 36%, 70%);
+  font: inherit;
+}
+
+.btn {
+  width: 50%;
+  border: none;
+  border-radius: 1em;
+  background-color: hsl(0, 36%, 70%);
+}
+
+.btn-logo {
+  width: auto;
+}
+
 .attribution {
+  margin-top: 5em;
   font-size: 11px;
   text-align: center;
 }
